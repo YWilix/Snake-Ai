@@ -2,6 +2,10 @@
 
 An Ai that plays and wins tha Snake Game using Python
 
+## An example of the Snake Ai :
+
+![Alt Text](https://github.com/YWilix/Snake-Ai/blob/main/Snake-Ai-win-gif.gif)
+
 ## How it Works 
 
 **1-** The program starts by creating a hamiltonian cycle for the map 
@@ -16,7 +20,3 @@ An Ai that plays and wins tha Snake Game using Python
 >steps 2 , 3 and 4 will repeat over and over making the snake getting longer
 
 **5-** when the snake's length reaches 65% of the map he will stop doing steps 2 and 3 and instead he will just follow the hamiltonian cycle
-
-## An example of the Snake Ai :
-
-![Alt Text](https://github.com/YWilix/Snake-Ai/blob/main/Snake-Ai-win-gif.gif)
