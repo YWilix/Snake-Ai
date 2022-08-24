@@ -190,21 +190,7 @@ def MovePoint(Point : tuple[int,int] , Dir : tuple[int, int] , reverse = False) 
 
 def IsAPossibleDir (snk : Snake,Dir : tuple , reverse = False) : 
     
-    #using see_if_dead method in the snake class has a massive glitch when the snake is only 2 pieces long
-    #that means a code like this used to detect if a step kill the snake or not doesn't allways work (when the snake is 2 pieces long): 
-    #
-    #snk.Change_Direction(the opposite of the current direction)           
-    #
-    #snk.Move()
-    #
-    #if snk.see_if_dead() :
-    #   Code...
-    #
-    #that's because the snake can walk backwards without dying
-    #when he moves to the opposite direction the second piece and thee head are going to switch positions
-    #leting him "alive" even if that's a wrong move
-    
-    # this method solves that problem and helps in testing the paths
+    # Tests if a Direction is Safe to Follow
     
     head = snk.Pos[0]
     
