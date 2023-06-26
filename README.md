@@ -1,6 +1,6 @@
 # Snake-Ai
 
-An Ai that plays and wins tha Snake Game using Python
+An Ai that plays and wins the Snake Game everytime Written in Python
 
 ## An example of the Snake Ai :
 
